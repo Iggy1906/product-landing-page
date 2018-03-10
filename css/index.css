@@ -1,0 +1,102 @@
+/*media query*/
+@media (max-width: 12450px)
+  
+  /* body */
+ body { */
+  background: 
+}
+ 
+
+
+
+/* header */
+.header {
+  top: 0;
+  background: #0a0a0a;
+  height: 50px;
+  width: 100%;
+  border: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #ffffff;
+  position: fixed;
+  z-index: 1;
+}
+
+#header-img {
+  height: 40px;
+}
+
+#nav-bar ul {
+  list-style: none;
+  display: inline-block;
+  float: right;
+}
+
+#nav-bar ul li {
+  float: left;
+  margin-right: 40px;
+  margin-top: 5px;
+  color: #0305ce;
+}
+
+#nav-bar ul li :hover {
+  text-decoration: none;
+  color: white; 
+}
+
+.nav-link {
+  font-size: 20px;
+  color: #0305ce;
+}
+
+/* jumbotron */
+
+#jum-con {
+   background: black; 
+}
+ 
+.jumbotron {
+  width:100%;
+  border-bottom: black solid 3px;
+  background:
+  url(https://s19.postimg.org/qpbji060z/scratchbastaddvs.jpg) center top no-repeat fixed;
+background-size: cover; 
+}
+
+.jumbotron #jumbo-pic {
+ display: block;
+  margin: auto;
+  width: 100%;
+  visibility: hidden;
+}
+
+
+/* container con-div */
+
+ h1, h3, h4 {
+  text-align: center;
+  color: #0305ce; 
+   margin-top: 50px;
+}
+
+
+.img-responsive{
+  height: 190px;
+  
+}
+ 
+ #interfaces {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+ 
+
+
+/* form */
+#form {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
